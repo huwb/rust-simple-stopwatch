@@ -1,2 +1,2 @@
 # rust-simple-stopwatch
-Minimal stopwatch for rust. Returns floats.
+A minimal no-thrills stopwatch. Returns time values as floats. Uses `time::precise_time_ns`.
