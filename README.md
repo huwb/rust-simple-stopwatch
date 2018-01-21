@@ -12,7 +12,7 @@ Add the dependency `simple-stopwatch` to your `Cargo.toml` file, for example:
 
 ```toml
 [dependencies]
-simple-stopwatch="0.1.2"
+simple-stopwatch="0.1.3"
 ```
 
 Then import the stopwatch anywhere you would like to use it:

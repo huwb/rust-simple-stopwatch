@@ -1,6 +1,6 @@
 [package]
 name = "simple-stopwatch"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Huw Bowles <huw.bowles@gmail.com>"]
 description = """
 Minimal stopwatch for rust, returns float values
