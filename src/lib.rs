@@ -6,7 +6,7 @@ extern crate time;
 
 /// Simple stopwatch
 #[derive(Clone, Copy)]
-pub struct Stopwatch_BREAK {
+pub struct Stopwatch {
     /// Start time in ns
     start_time_ns: u64,
 }
