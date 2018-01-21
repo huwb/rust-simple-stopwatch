@@ -12,7 +12,7 @@ Add the dependency `simple-stopwatch` to your `Cargo.toml` file, for example:
 
 ```toml
 [dependencies]
-simple-stopwatch="0.1.3"
+simple-stopwatch="0.1.4"
 ```
 
 Then import the stopwatch anywhere you would like to use it:
@@ -23,6 +23,9 @@ use simple_stopwatch::Stopwatch;
 ```
 
 ## Example Use
+
+There is minimal state in `simple-stopwatch`. Upon creation it grabs a timestamp, from which point its member functions will return elapsed time.
+
 ```rust
 fn my_function() {
   let sw = Stopwatch::start_new();
@@ -32,8 +35,11 @@ fn my_function() {
   let elapsed_ms = sw.ms();
   println!("Time taken: {}ms", elapsed_ms);
 }
-
 ```
+
+The `restart` method updates the stored timestamp to the current time.
+
+The code make use of a small amount of code from the `time` crate, which uses a system call to obtain a high precision time stamp. The overhead of this call appears to be very small from my experiments so far.
 
 ## Inspiration / Other Projects
 
