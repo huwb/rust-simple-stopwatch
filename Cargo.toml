@@ -2,9 +2,16 @@
 name = "simple-stopwatch"
 version = "0.1.0"
 authors = ["Huw Bowles <huw.bowles@gmail.com>"]
-description = "Minimal stopwatch for rust, returns float values"
+description = """
+Minimal stopwatch for rust, returns float values
+"""
+keywords = ["stopwatch", "timekeeper", "timer"]
+repository = "https://github.com/huwb/rust-simple-stopwatch"
+documentation = "https://docs.rs/simple-stopwatch/"
 license = "MIT"
 
-[dependencies]
+[badges]
+travis-ci = { repository = "huwb/rust-simple-stopwatch" }
 
+[dependencies]
 time = "0.1.39"
