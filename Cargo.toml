@@ -8,6 +8,8 @@ Minimal stopwatch for rust, returns float values
 keywords = ["stopwatch", "timekeeper", "timer"]
 repository = "https://github.com/huwb/rust-simple-stopwatch"
 documentation = "https://docs.rs/simple-stopwatch/"
+homepage = "https://github.com/huwb/rust-simple-stopwatch"
+readme = "README.md"
 license = "MIT"
 
 [badges]
