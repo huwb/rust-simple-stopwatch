@@ -1,0 +1,8 @@
+[package]
+name = "simple-stopwatch"
+version = "0.1.0"
+authors = ["Huw Bowles <huw.bowles@gmail.com>"]
+
+[dependencies]
+
+time = "0.1.39"
